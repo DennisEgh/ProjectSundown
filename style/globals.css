@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Gotham book";
+  src: url("./font/Gotham-Book.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: "Gotham book", "Roboto", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html {
+  scroll-behavior: smooth;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: white;
+  cursor: default;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  cursor: default;
+}
